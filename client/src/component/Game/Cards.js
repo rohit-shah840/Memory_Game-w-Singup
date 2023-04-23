@@ -33,9 +33,9 @@ function Cards() {
       items[curr].stat = "correct";
       items[prev].stat = "correct";
       setCount(count + 1);
-      if (count === 8 && score === 0) {
-        score = 0;
-      }
+//       if (count === 8 && score === 0) {
+//         score = 0;
+//       }
       setScore(score + 100);
       setItems([...items]);
       setPrev(-1);
