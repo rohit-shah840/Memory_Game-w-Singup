@@ -33,9 +33,9 @@ function Game() {
       items[curr].stat = "correct";
       items[prev].stat = "correct";
       setCount(count + 1);
-      if (count === 8 && score === 0) {
-        score = 0;
-      }
+//       if (count === 8 && score === 0) {
+//         score = 0;
+//       }
       setScore(score + 100);
       setItems([...items]);
       setPrev(-1);
@@ -71,7 +71,7 @@ function Game() {
       ))}
       <div>Count :{count}</div>
       <div>Score :{score}</div>
-      <div>Accuracy:{((13 / count) * 100).toFixed(1)}</div>
+      <div>Accuracy:{((10 / count) * 100).toFixed(1)}</div>
     </div>
   );
 }
