@@ -1,29 +1,36 @@
 # PUZZLE-GAME 
-In the puzzle-game , initially the images are shown for the very short period of time (2sec) and then the images are hidden and in this game user has to pick/chooce the image and match with similar image.The game enviroment is 4x4 grid where total distincts images are 8 and every time the image postion is changes randomly .  If the user is able to match the correctly then the user score will updated by 100 and the no of steps is incresed in right and wrong selection of images.
-This game is to test the user soft skill as Eye sighting power as well as the mind for remembering and helping in finding the correct postion of the image. This game is about memory testing game.
+"In the puzzle game, the images are initially shown for a very short period of time (2 seconds) and then hidden. In this game, the user has to choose an image and match it with a similar one. The game environment is a 4x4 grid where there are a total of 8 distinct images, and the position of the images changes randomly each time. If the user is able to match the images correctly, their score will be updated by 100, and the number of steps will increase with each right or wrong selection of images. This game tests the user's soft skills such as eyesight and memory, helping them to find the correct position of the image. It is a memory testing game.  This puzzle game is not only fun and challenging, but it also helps to improve the user's cognitive abilities. By repeatedly playing this game, the user can train their brain to better remember visual cues and develop their problem-solving skills."
 
-login and signup page.
-
-# Features
-First of all user has to login/signup the web pages.
-On login/singup user will be direct to the Game page .
-Where user can play the game .
-On every click on the grid number of steps will incresess   by 1 stpes.and 
-On every correct selection the user score wil be increasees by 100 point.
-User can restart the game by clicking on the refresh icon in the above left corner.
-New game will started from the begganing.
-and after completing the game, User can see the accuracy of their soft skill.
+# Features:
+- The most first step is to signup for the new user and then refresh the page and then go for login.
+- The user should login with same username and password to access the game page.
+- Then user should click on the login button to login.
+- Once the user logs in, they will be directed to the game page where they can start playing the game.
+- Each time the user clicks on a grid, the number of steps taken will increase by one.
+- Every time the user selects a correct image, their score will increase by 100 points.
+- If the user wishes to restart the game, they can do so by clicking on the refresh icon located in the upper left corner.
+- The new game will start from the beginning.
+- Upon completing the game, the user will be able to view their soft skill accuracy.
 
 # Tech Stack
-VS-CODE
-JavaScript
-CSS
-React Js
-Node Js
-mysql
+- VS-CODE
+- Command prompt
+- JavaScript
+- CSS
+- Bootstrap
+- React Js
+- Node Js
+- mysql
+- Code Editor/tools: VS-Code, Command prompt, Powershell
 
 
 # ScreenShot
+    # DEMO :
+
+https://user-images.githubusercontent.com/96192862/233855091-c56c80d8-5c0a-4d2c-92ed-88c77a156b4e.mp4
+
+
+    
     # Login and Signup Page :
 ![image](https://user-images.githubusercontent.com/96192862/233848359-012b03ba-36cf-4e8e-904a-dd3bc12b7552.png)
 ![image](https://user-images.githubusercontent.com/96192862/233848478-d2de5d6a-e304-454c-bedb-e52a86424f8c.png)
